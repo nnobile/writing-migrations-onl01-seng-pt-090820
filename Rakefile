@@ -1,5 +1,5 @@
 require 'active_record'
-require 'sinatra/activerecord/rake'
+# require 'sinatra/activerecord/rake'
 include ActiveRecord::Tasks
 
 DatabaseTasks.db_dir = 'db'
